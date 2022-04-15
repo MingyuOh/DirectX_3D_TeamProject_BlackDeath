@@ -1,0 +1,7 @@
+6
+1	TEST_HOUSE01	NONE	abandoned_house_skin.PSB	4.0
+2	TEST_HOUSE02	NONE	ruined_house.PSB	4.0
+3	TEST_TREE01	NONE	fir_tree.PSB	5.0
+4	TEST_TREE02	NONE	oak_tree.PSB	5.0
+5	TEST_TREE03	NONE	palm_tree.PSB	8.0
+6	TEST_TREE04	NONE	poplar_tree.PSB	8.0

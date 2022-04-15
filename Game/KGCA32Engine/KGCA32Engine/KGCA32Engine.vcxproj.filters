@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{407943b5-df18-4b19-a631-c038d09ba3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{243395d9-71a3-41bd-98a3-3464c3bd5f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{fe21a04d-9e28-4b51-b7db-7de7d6aeeff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Std">
+      <UniqueIdentifier>{f8f7e2b4-61aa-4f0d-ae17-bdaedf059e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{2b801153-021e-4576-9a1c-1833e5ac2158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapToolParser">
+      <UniqueIdentifier>{a6e98b49-e6e1-4204-beed-e0ce2ca97624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{c5ba4f0c-150b-4863-9acd-a767a2e8f205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect\EffectShader">
+      <UniqueIdentifier>{1a24382f-14d4-4084-acae-33df86ec1d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterParser">
+      <UniqueIdentifier>{e0372770-03a2-4001-bd98-5c5c45bd9cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterParser\Data">
+      <UniqueIdentifier>{d82586c9-62da-46de-9e78-6f9c6a414e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterParser\Data\Manager">
+      <UniqueIdentifier>{51a1d945-4acd-4821-a996-4d4b09f370ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterParser\Data\Function">
+      <UniqueIdentifier>{b2a87143-cf43-459d-9890-93d774ca21fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{68d36471-2f31-438d-95a3-b0dfbed14c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\UIShader">
+      <UniqueIdentifier>{9ff9f341-5b37-4d44-9151-7ed4681f2ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterParser\Data\CoreLink">
+      <UniqueIdentifier>{008cbc88-4bbf-43f5-ade6-e17c4a87021c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{2531fc9a-d35a-4f39-a568-95d0e9a528b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterParser\Collition">
+      <UniqueIdentifier>{7d389aab-ba08-4b27-ab6e-5d7a0d562372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher">
+      <UniqueIdentifier>{44e196a3-3d43-4e46-b113-ee926cb2e288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MonsterAI">
+      <UniqueIdentifier>{c81cff8b-8e73-468d-8f44-90c939f0005a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterParser\item">
+      <UniqueIdentifier>{338e3882-29d3-48a0-8aea-815728d7c530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterParser\skill">
+      <UniqueIdentifier>{71d82d78-c5e4-4e22-93a4-92199e77a207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterParser\monster">
+      <UniqueIdentifier>{9d78f7b6-0b37-42a2-8a49-a47f4deb9e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterParser\Command">
+      <UniqueIdentifier>{24047a53-55f2-464d-afe0-1591b5ddcdcb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BCore.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BDevice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BInput.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BTimer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BWindowLib.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BWrite.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BSound.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BBackViewCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="BCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="BFrustum.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="BDirectionLine.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BSkyObj.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BSphere.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BBox.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BLine.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BDxState.cpp">
+      <Filter>Std</Filter>
+    </ClCompile>
+    <ClCompile Include="BPlane.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BMapLOD.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BMapTileRender.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BNode.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BQuadTree.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BSelect.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BMapParser.cpp">
+      <Filter>MapToolParser</Filter>
+    </ClCompile>
+    <ClCompile Include="MapExporter.cpp">
+      <Filter>MapToolParser</Filter>
+    </ClCompile>
+    <ClCompile Include="MapImporter.cpp">
+      <Filter>MapToolParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterParser.cpp">
+      <Filter>CharacterParser</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectParser.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="K_Object.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="K_Plane.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="K_UIParser.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="KPlaneRect.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LAAnimationManager.cpp">
+      <Filter>CharacterParser\Data\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LALoadObjectManager.cpp">
+      <Filter>CharacterParser\Data\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LAManagerOfManager.cpp">
+      <Filter>CharacterParser\Data\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LAMaterialManager.cpp">
+      <Filter>CharacterParser\Data\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LAMeshManager.cpp">
+      <Filter>CharacterParser\Data\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LAResourceManager.cpp">
+      <Filter>CharacterParser\Data\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LAInputHandler.cpp">
+      <Filter>CharacterParser\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="LAKeyStateCommand.cpp">
+      <Filter>CharacterParser\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="LAAnimaionData.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LABoneObject.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LABox2.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LADeco.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LAHero.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LAItem.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LALoadObject.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LAMaterialData.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LAMesh.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LAMeshData.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LAObject2.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPaser.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPsbParser.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LAResource.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LASkinObject.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LASpaceBox2.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LASpaceObject2.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LASpacePlane2.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LASpaceSphere2.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LATopObject.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LAUnit.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="BDxRT.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BDxRTHeight.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BLight.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BNPlane.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BNMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BRenderPlane.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BRenderPlaneHeight.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BWaterMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BBoundingBox.cpp">
+      <Filter>CharacterParser\Collition</Filter>
+    </ClCompile>
+    <ClCompile Include="BCollision.cpp">
+      <Filter>CharacterParser\Collition</Filter>
+    </ClCompile>
+    <ClCompile Include="BMapSetting.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FiniteState.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="FiniteStateMachine.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="BBullet.cpp">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="BGrenade.cpp">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="BFPSCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystemManager.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterAIManager.cpp">
+      <Filter>MonsterAI</Filter>
+    </ClCompile>
+    <ClCompile Include="BMouseShape.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LASound2.cpp">
+      <Filter>CharacterParser\Data\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="LAParticleBomb.cpp">
+      <Filter>CharacterParser\item</Filter>
+    </ClCompile>
+    <ClCompile Include="LAParticleHandgun.cpp">
+      <Filter>CharacterParser\item</Filter>
+    </ClCompile>
+    <ClCompile Include="LAParticleKnife.cpp">
+      <Filter>CharacterParser\item</Filter>
+    </ClCompile>
+    <ClCompile Include="LAParticleMedic.cpp">
+      <Filter>CharacterParser\item</Filter>
+    </ClCompile>
+    <ClCompile Include="LAParticleRender.cpp">
+      <Filter>CharacterParser\item</Filter>
+    </ClCompile>
+    <ClCompile Include="LAParticleRifle.cpp">
+      <Filter>CharacterParser\item</Filter>
+    </ClCompile>
+    <ClCompile Include="LASkill.cpp">
+      <Filter>CharacterParser\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="K_Sound.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BAseObj.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BParser.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="LAGunner.cpp">
+      <Filter>CharacterParser\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="LAZombie.cpp">
+      <Filter>CharacterParser\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="LAItemControl.cpp">
+      <Filter>CharacterParser\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="TMath.cpp">
+      <Filter>Std</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BCore.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BDevice.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BInput.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BTimer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BWindowLib.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BWrite.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BSound.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BBackViewCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="BCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="BFrustum.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="BObjStd.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BSkyObj.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BPlane.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BLine.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BDirectionLine.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BBox.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BStd.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="BDxState.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="BSphere.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BMapLOD.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BMapTileRender.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BNode.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BQuadTree.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BSelect.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BMapParser.h">
+      <Filter>MapToolParser</Filter>
+    </ClInclude>
+    <ClInclude Include="MapExporter.h">
+      <Filter>MapToolParser</Filter>
+    </ClInclude>
+    <ClInclude Include="MapImporter.h">
+      <Filter>MapToolParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterParser.h">
+      <Filter>CharacterParser</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectParser.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="K_Object.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="K_Plane.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="K_UIParser.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="KPlaneRect.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreFuncLink.h">
+      <Filter>CharacterParser\Data\CoreLink</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreInputLink.h">
+      <Filter>CharacterParser\Data\CoreLink</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreStandardLink.h">
+      <Filter>CharacterParser\Data\CoreLink</Filter>
+    </ClInclude>
+    <ClInclude Include="LACoreLinkStd.h">
+      <Filter>CharacterParser\Data\CoreLink</Filter>
+    </ClInclude>
+    <ClInclude Include="LACharacterStruct.h">
+      <Filter>CharacterParser\Data\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="LAPSBSingleton.h">
+      <Filter>CharacterParser\Data\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="LAAnimationManager.h">
+      <Filter>CharacterParser\Data\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LALoadObjectManager.h">
+      <Filter>CharacterParser\Data\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LAManagerOfManager.h">
+      <Filter>CharacterParser\Data\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LAMaterialManager.h">
+      <Filter>CharacterParser\Data\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LAMeshManager.h">
+      <Filter>CharacterParser\Data\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LAResourceManager.h">
+      <Filter>CharacterParser\Data\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LACharacterInputState.h">
+      <Filter>CharacterParser\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="LAInputHandler.h">
+      <Filter>CharacterParser\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="LAKeyStateCommand.h">
+      <Filter>CharacterParser\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="LAAnimaionData.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LABoneObject.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LABox2.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LADeco.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LAHero.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LAItem.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LALoadObject.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LAMaterialData.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LAMesh.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LAMeshData.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LAObject2.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LAPaser.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LAPsbParser.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LAResource.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LASkinObject.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LASpaceBox2.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LASpaceObject2.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LASpacePlane2.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LASpaceSphere2.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LATopObject.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LAUnit.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="BDxRT.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BDxRTHeight.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BLight.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BNMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BNPlane.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BRenderPlane.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BRenderPlaneHeight.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BWaterMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BBoundingBox.h">
+      <Filter>CharacterParser\Collition</Filter>
+    </ClInclude>
+    <ClInclude Include="BCollision.h">
+      <Filter>CharacterParser\Collition</Filter>
+    </ClInclude>
+    <ClInclude Include="BMapSetting.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FiniteState.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FiniteStateMachine.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMState.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="BBullet.h">
+      <Filter>Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="BGrenade.h">
+      <Filter>Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="BEffectTime.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BFPSCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystemManager.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAIManager.h">
+      <Filter>MonsterAI</Filter>
+    </ClInclude>
+    <ClInclude Include="BMouseShape.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LASound2.h">
+      <Filter>CharacterParser\Data\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="LAParticleBomb.h">
+      <Filter>CharacterParser\item</Filter>
+    </ClInclude>
+    <ClInclude Include="LAParticleHandgun.h">
+      <Filter>CharacterParser\item</Filter>
+    </ClInclude>
+    <ClInclude Include="LAParticleKnife.h">
+      <Filter>CharacterParser\item</Filter>
+    </ClInclude>
+    <ClInclude Include="LAParticleMedic.h">
+      <Filter>CharacterParser\item</Filter>
+    </ClInclude>
+    <ClInclude Include="LAParticleRender.h">
+      <Filter>CharacterParser\item</Filter>
+    </ClInclude>
+    <ClInclude Include="LAParticleRifle.h">
+      <Filter>CharacterParser\item</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleList.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="LASkill.h">
+      <Filter>CharacterParser\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="K_Sound.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LAGrobalValue.h">
+      <Filter>CharacterParser\Data\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="BAseObj.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BParser.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="LAGunner.h">
+      <Filter>CharacterParser\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="LAZombie.h">
+      <Filter>CharacterParser\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="LAItemControl.h">
+      <Filter>CharacterParser\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TMath.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BWindowLib.aps" />
+    <None Include="BWindowLib.vcxproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BWindowLib.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="NormalShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="LineShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="SkyShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\EffectInstanceShader.hlsl">
+      <Filter>Effect\EffectShader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\EffectShader.hlsl">
+      <Filter>Effect\EffectShader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\UIShader\LineShader.hlsl">
+      <Filter>UI\UIShader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\UIShader\PixelShader.psh">
+      <Filter>UI\UIShader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\UIShader\VertexShader.vsh">
+      <Filter>UI\UIShader</Filter>
+    </FxCompile>
+    <FxCompile Include="TestShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="WaterMapShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="AseShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
