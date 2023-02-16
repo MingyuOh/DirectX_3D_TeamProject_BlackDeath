@@ -40,15 +40,16 @@
  
  
 ## 📺 시연 영상
-&emsp;[![Video Label](https://user-images.githubusercontent.com/16281218/218701661-20602342-d82e-4e7d-b7f8-a64dbdc82337.png)](https://youtu.be/GfTfRzlZWFo)        
+&emsp;![BlackDeath_Thumbnail](https://user-images.githubusercontent.com/16281218/219325272-5fdaec7b-429c-4dec-99fe-e6dac0eee951.png)        
 &emsp;**🔼 이미지를 클릭해주세요.**    
 
 ## 🖼️ 스크린샷
-&emsp;<img src="https://user-images.githubusercontent.com/16281218/219298699-3464111c-6e0f-4b87-be59-5b4dea4e8ded.png" width="800" height="600"/>    
-&emsp;<img src="https://user-images.githubusercontent.com/16281218/219298705-148e1ff5-06a5-4d52-acf4-fb0508df5b2f.png" width="800" height="600"/>    
-&emsp;<img src="https://user-images.githubusercontent.com/16281218/219298707-e4101072-13cb-4be4-89d6-8e30712da347.png" width="800" height="600"/>    
-&emsp;<img src="https://user-images.githubusercontent.com/16281218/219298711-9d356e36-a485-482b-a2b0-a0b94c4d8feb.png" width="800" height="600"/>    
-&emsp;<img src="https://user-images.githubusercontent.com/16281218/219298715-85c20e3a-4ba1-407d-bb3e-dccf18801d89.png" width="800" height="600"/>    
+&emsp;<img src="https://user-images.githubusercontent.com/16281218/219325279-37a2f698-fb7e-4784-8586-9faa801c27b6.png" width="800" height="600"/>    
+&emsp;<img src="https://user-images.githubusercontent.com/16281218/219325286-b6df8bc8-86a6-411a-a5b8-4c0f26d08223.png" width="800" height="600"/>    
+&emsp;<img src="https://user-images.githubusercontent.com/16281218/219325290-150b0fb9-9016-4781-a5e9-ad92bbdd373b.png" width="800" height="600"/>    
+&emsp;<img src="https://user-images.githubusercontent.com/16281218/219325293-f23685ed-b608-411a-bdf8-cc0eff45bf50.png" width="800" height="600"/>    
+&emsp;<img src="https://user-images.githubusercontent.com/16281218/219325295-4ec78cdd-1740-4fb1-8b6e-8cbc588bf1d3.png" width="800" height="600"/>    
+&emsp;<img src="https://user-images.githubusercontent.com/16281218/219325300-27e65705-4f7b-48e2-8629-ca8e1df5041c.png" width="800" height="600"/>    
 
 ## ⚠️ 주의사항    
 프로젝트 실행을 원하시면 
