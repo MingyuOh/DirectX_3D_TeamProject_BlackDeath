@@ -8,7 +8,7 @@
 - 🖼️ [스크린샷](#%EF%B8%8F-스크린샷)
 
 ## 📝 개요
-<img src="https://user-images.githubusercontent.com/16281218/218702104-19e47381-6c84-476e-9662-d233968656a7.png" width="800" height="600"/>    
+<img src="https://user-images.githubusercontent.com/16281218/219325279-37a2f698-fb7e-4784-8586-9faa801c27b6.png" width="800" height="600"/>    
 
 > - 프로젝트: DirectX 11 기반 3D FPS Game BlackDeath     
 > - 기획 및 제작: 오민규외 4명(클라이언트 4명, 기획 1명)   
@@ -40,11 +40,11 @@
  
  
 ## 📺 시연 영상
-&emsp;![BlackDeath_Thumbnail](https://user-images.githubusercontent.com/16281218/219325272-5fdaec7b-429c-4dec-99fe-e6dac0eee951.png)        
+&emsp;<img src="https://user-images.githubusercontent.com/16281218/219325272-5fdaec7b-429c-4dec-99fe-e6dac0eee951.png" width="800" height="600"/>        
 &emsp;**🔼 이미지를 클릭해주세요.**    
 
 ## 🖼️ 스크린샷
-&emsp;<img src="https://user-images.githubusercontent.com/16281218/219325279-37a2f698-fb7e-4784-8586-9faa801c27b6.png" width="800" height="600"/>    
+&emsp;<img src="https://user-images.githubusercontent.com/16281218/219329044-f0b30092-9bf1-49a3-aa8f-76162be20619.png" width="800" height="600"/>    
 &emsp;<img src="https://user-images.githubusercontent.com/16281218/219325286-b6df8bc8-86a6-411a-a5b8-4c0f26d08223.png" width="800" height="600"/>    
 &emsp;<img src="https://user-images.githubusercontent.com/16281218/219325290-150b0fb9-9016-4781-a5e9-ad92bbdd373b.png" width="800" height="600"/>    
 &emsp;<img src="https://user-images.githubusercontent.com/16281218/219325293-f23685ed-b608-411a-bdf8-cc0eff45bf50.png" width="800" height="600"/>    
