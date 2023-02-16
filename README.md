@@ -40,7 +40,8 @@
  
  
 ## 📺 시연 영상
-&emsp;<img src="https://user-images.githubusercontent.com/16281218/219325272-5fdaec7b-429c-4dec-99fe-e6dac0eee951.png" width="800" height="600"/>        
+//&emsp;[![Video Label](https://user-images.githubusercontent.com/16281218/218701661-20602342-d82e-4e7d-b7f8-a64dbdc82337.png)](https://youtu.be/GfTfRzlZWFo)  
+&emsp;<img src="https://user-images.githubusercontent.com/16281218/219325272-5fdaec7b-429c-4dec-99fe-e6dac0eee951.png" width="800" height="600"/>(https://youtu.be/GfTfRzlZWFo)       
 &emsp;**🔼 이미지를 클릭해주세요.**    
 
 ## 🖼️ 스크린샷
