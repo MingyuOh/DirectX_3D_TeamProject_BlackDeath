@@ -50,12 +50,3 @@
 &emsp;<img src="https://user-images.githubusercontent.com/16281218/219325293-f23685ed-b608-411a-bdf8-cc0eff45bf50.png" width="800" height="600"/>    
 &emsp;<img src="https://user-images.githubusercontent.com/16281218/219325295-4ec78cdd-1740-4fb1-8b6e-8cbc588bf1d3.png" width="800" height="600"/>    
 &emsp;<img src="https://user-images.githubusercontent.com/16281218/219325300-27e65705-4f7b-48e2-8629-ca8e1df5041c.png" width="800" height="600"/>    
-
-## ⚠️ 주의사항    
-프로젝트 실행을 원하시면 
-**[libfbxsdk-md.lib, libfbxsdk-mt.lib] 파일**을 
-**lib/fbx/x64/debug 폴더**에 추가해주세요.
-=======
-# DirectX_3D_TeamProject_BlackDeath
-DirectX 11를 활용하여 5명이 공동 개발한 3D FPS Game
->>>>>>> 5aaafd98e46ca052b30c311c394dad61333f7b86
