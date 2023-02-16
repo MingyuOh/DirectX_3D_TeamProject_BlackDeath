@@ -1,0 +1,73 @@
+
+Texture2D g_txDiffuse : register (t0);
+Texture2D g_txBlendA : register (t1);
+Texture2D g_txBlendB : register (t2);
+SamplerState sample0 : register (s0);
+
+cbuffer cb0 : register(b0)
+{
+	matrix g_matWorld	:	packoffset(c0);
+	matrix g_matView	:	packoffset(c4);
+	matrix g_matProj	:	packoffset(c8);
+	matrix g_MeshColor  :	packoffset(c12);
+};
+
+//cbuffer cb1 : register(b1)
+//{
+//	float4 g_DataA	:	packoffset(c0);
+//	float4 g_DataB	:	packoffset(c1);
+//	float4 cb_vEyePosition	:	packoffset(c2);
+//};
+
+cbuffer cb1 : register(b1)
+{
+	float4 g_vLightPos			:	packoffset(c0);
+	float4 g_vLIghtDirection	:	packoffset(c1);
+	float4 g_vEyePosition		:	packoffset(c2);
+	float4 g_Data01				:	packoffset(c3);
+};
+
+
+struct VS_INPUT
+{
+	float4 Position : SV_POSITION; // 버텍스 포지션
+	float4 Normal  : NORMAL;
+	float4 Diffuse : COLOR0;      // 버텍스 색상값
+	float2 Texture : TEXCOORD;	//Texture 포지션
+};
+
+
+
+float4 TPS(VS_INPUT input) : SV_Target
+{
+	//float4 vdirection = input.Position - g_DataA;
+	float4 vLight = float4(500, 200, 0, 1);
+	float fdot = dot(normalize(input.Normal), normalize(vLight));// normalize(-g_DataA));
+	float4 vTexColor = g_txDiffuse.Sample(sample0, input.Texture);
+	//float4 vFinalColor = vTexColor * fdot;// input.Diffuse * fdot;// max(0.2, fdot);
+	//input.Diffuse = input.Diffuse * fdot;
+	//input.Diffuse.a = 1.0f;
+	float4 vFinalColor = vTexColor;// *g_DataA;// fdot;
+	vFinalColor.a = 1.0f;
+
+	return vFinalColor;
+}
+
+
+
+float4 AlphaBlend2(VS_INPUT input) : SV_Target
+{
+	return input.Diffuse * g_txDiffuse.Sample(sample0, input.Texture);
+}
+
+float4 BlendAddPS(VS_INPUT input) : SV_Target
+{
+	float4 txColor0 = g_txDiffuse.Sample(sample0, input.Texture);
+	float4 txColor1 = g_txBlendA.Sample(sample0, input.Texture);
+	float4 txColor2 = g_txBlendB.Sample(sample0, input.Texture);
+	//float4 FinalColor = (txColor0 * (1.0f - txColor1.a) + (txColor1 * txColor1.a));
+	float4 temp = lerp(input.Diffuse * txColor1, input.Diffuse * txColor2, g_vEyePosition);
+	float4 FinalColor = (txColor0 * (1.0f - temp.a) + temp * temp.a);
+	return FinalColor;
+}
+
