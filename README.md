@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Effect Tool
+# DirectX_3D_TeamProject_BlackDeath
 ## 📙목차
 - 📝 [개요](#-개요)
 - 🏆 [목표](#-목표)
@@ -7,15 +6,14 @@
 - 🧑‍💻 [개발 문서](#-개발-문서)
 - 📺 [시연 영상](#-시연-영상)
 - 🖼️ [스크린샷](#%EF%B8%8F-스크린샷)
-- ⚠️ [주의사항](#%EF%B8%8F-주의사항)
 
 ## 📝 개요
 <img src="https://user-images.githubusercontent.com/16281218/218702104-19e47381-6c84-476e-9662-d233968656a7.png" width="800" height="600"/>    
 
-> - 프로젝트: DirectX 11과 MFC를 활용한 이펙트 툴 제작      
-> - 기획 및 제작: 오민규   
-> - 분류: 개인 프로젝트   
-> - 제작 기간: 25일    
+> - 프로젝트: DirectX 11 기반 3D FPS Game BlackDeath     
+> - 기획 및 제작: 오민규외 4명(클라이언트 4명, 기획 1명)   
+> - 분류: 팀 프로젝트   
+> - 제작 기간: 60일    
 > - 게임 소개:   
 > &emsp;DirectX를 이용하여 게임을 제작할 때, 게임 프로젝트에서 직접 이펙트를 생성하는 것이 아닌 게임에서 사용되는        
 > &emsp;이펙트 리소스를 기획에 맞춰서 제작하기 위하여 DirectX와 MFC를 이용하여 이펙트 툴을 제작한다.    
@@ -23,7 +21,7 @@
 > &emsp;사용자에게 이펙트 데이터(위치, 방향, 속도 등)를 입력하도록 하여 더 쉽고 간편하게 이펙트를 제작할 수 있도록 한다.       
 
 ## 🏆 목표      
-- DirectX를 활용하여 게임 엔진(라이브러리)을 제작하고 엔진 개발을 통해 3D 수학 개념과 컴퓨터 그래픽스를 학습한다.    
+- 5명이 DirectX를 활용하여    
 - DirectX 3D 게임 프로젝트를 진행하기 이전에, 게임에서 사용할 이펙트 개체들을 직접 만들기 위해 개발한 게임 엔진과 MFC를 이용하여 이펙트 툴을 제작한다.    
 - 해당 툴을 사용하는 다른 사용자들이 이펙트를 제작하기 편리하도록 툴 기능을 최소화하여 UI를 배치하였다.    
 - 이펙트를 제작하기 위한 기본적인 기능(생성, 추가, 삭제, 수정, 저장, 불러오기 등)을 구현하여 사용자가 원하는 이펙트를 생성할 수 있도록 한다.    
@@ -33,8 +31,8 @@
 &emsp;<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&&logo=c&logoColor=white"/> 
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&&logo=cplusplus&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Window API-0078D6?style=flat-square&&logo=Windows&logoColor=white"/> 
-<img src="https://img.shields.io/badge/-MFC-red?style=flat-square&&logo=Microsoft&logoColor=white"/> 
 <img src="https://img.shields.io/badge/-DirectX-black?style=flat-square&&logo=Microsoft&logoColor=white"/> 
+<img src="https://img.shields.io/badge/-SVN-red?style=flat-square&&logo=Microsoft&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&&logo=Visual Studio&logoColor=white"/>    
 
 ## 🧑‍💻 개발 문서
