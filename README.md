@@ -36,7 +36,7 @@
 <img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&&logo=Visual Studio&logoColor=white"/>    
 
 ## 🧑‍💻 개발 문서
-&emsp;[개발 문서 확인하기](https://github.com/MingyuOh/DirectX_3D_TeamProject_BlackDeath/tree/main/Document)
+&emsp;[개발 문서 확인하기](https://github.com/MingyuOh/DirectX_3D_TeamProject_BlackDeath/tree/main/Document/[DirectX 3D]Team Project_BlackDeath.pdf)
  
  
 ## 📺 시연 영상
